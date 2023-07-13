@@ -28,6 +28,7 @@ summary.lm(simp)
 ```
 
 
+The scatter plot function is used to visualize the relationship between the "NECK" and "LENGTH" variables, with "NECK" values represented on the x-axis and "LENGTH" values represented on the y-axis. The abline function adds a line to the plot, which represents the best-fit line determined by the linear regression model. The bear's neck is 20 inches around which helps predict about 57 in length. Looking at the accompanying data, the residual standard error is 5.376 and the R-squared is .7524.
 
 
 
