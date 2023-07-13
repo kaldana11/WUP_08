@@ -81,6 +81,13 @@ After close examination of the graph, the residual standard error comes up to be
 
 
 
+```{r}
+MYHEADLEN <- lm(LENGTH~HEADLEN,data=bears)
+plot(LENGTH~HEADLEN,data=bears)
+abline(MYHEADLEN)
+summary.lm(MYHEADLEN)
+```
+
 
 
 
