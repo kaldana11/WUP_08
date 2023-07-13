@@ -70,7 +70,12 @@ This model is in representation of the bear's weight. The residual standard erro
 
 
 
-
+```{r}
+MYAGE <- lm(LENGTH~AGE,data=bears)
+plot(LENGTH~AGE,data=bears)
+abline(MYAGE)
+summary.lm(MYAGE)
+```
 
 
 
