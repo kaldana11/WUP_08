@@ -77,7 +77,7 @@ abline(MYAGE)
 summary.lm(MYAGE)
 ```
 
-
+After close examination of the graph, the residual standard error comes up to be about 7.511, while the adjusted R-squared comes out to be 0.5073. With the R-squared number to be extremely low, it comes out to be the worst R-squared we have come across. Whilst looking at the residual standard error, 7.511 is a high number, which makes it being the worst. By far, AGE is clicking on the bottom of the list while CHEST comes at 1st.
 
 
 
