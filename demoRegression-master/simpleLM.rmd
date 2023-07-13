@@ -91,4 +91,8 @@ summary.lm(MYHEADLEN)
 While giving this graph a close examination, the residual standard error is 4.235, while the adjusted R-squared is 0.8434. With this record breaking numbers by far, HEADLEN takes first place! With the residual standard error number being the lowest, and R-squared being the highest, we can conclude that this takes the number 1 spot out of all the graphs.
 
 
+#CONCLUSION 
+
+After placing multiple graphs to conclude which factor had the winning crown, I have concluded that MYHEADLEN takes first place! It contributed to a low residual standard error of 4.235 and a high R-squared number of 0.8434, it takes the number 1 spot out of all the other factors. Taking second place is CHEST, taking third place is NECK, taking fourth place is WEIGHT, taking fifth place is HEADWTH and taking last of all is AGE, being the worst one by far. 
+
 
