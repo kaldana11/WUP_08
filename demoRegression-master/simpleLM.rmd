@@ -37,3 +37,19 @@ The scatter plot function is used to visualize the relationship between the "NEC
 
 ## Compare all models that predict LENGTH other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
 
+
+```{r}
+MYCHEST <- lm(LENGTH~CHEST,data=bears)
+plot(LENGTH~CHEST,data=bears)
+abline(MYCHEST)
+summary.lm(MYCHEST)
+```
+
+
+
+
+
+
+
+
+
