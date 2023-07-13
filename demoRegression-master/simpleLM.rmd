@@ -59,7 +59,12 @@ summary.lm(MYHEADWTH)
 The plot function generates a scatter plot where the "HEADWTH" values are plotted on the x-axis and the corresponding "LENGTH" values are plotted on the y-axis. The abline function adds a line to the plot that represents the best-fit line determined by the linear regression model. As the third model, the residual error is 7.32 which is making it worst. In addition, the R-squared is now 0.5409 which is also a decline from the previous model. Comparing all three models, NECKWTH would be the bottom of the list. The residual error and R-squared numbers show clear low numbers. This would rank #3 of all 3.
 
 
-
+```{r}
+MYWEIGHT <- lm(LENGTH~WEIGHT,data=bears)
+plot(LENGTH~WEIGHT,data=bears)
+abline(MYWEIGHT)
+summary.lm(MYWEIGHT)
+```
 
 
 
