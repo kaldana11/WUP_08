@@ -88,7 +88,7 @@ abline(MYHEADLEN)
 summary.lm(MYHEADLEN)
 ```
 
-
+While giving this graph a close examination, the residual standard error is 4.235, while the adjusted R-squared is 0.8434. With this record breaking numbers by far, HEADLEN takes first place! With the residual standard error number being the lowest, and R-squared being the highest, we can conclude that this takes the number 1 spot out of all the graphs.
 
 
 
