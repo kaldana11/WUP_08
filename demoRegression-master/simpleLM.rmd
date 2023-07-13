@@ -45,7 +45,7 @@ abline(MYCHEST)
 summary.lm(MYCHEST)
 ```
 
-
+The plot function creates a scatter plot where the "CHEST" values are plotted on the x-axis and the corresponding "LENGTH" values are plotted on the y-axis. The abline function adds a line to the plot, which represents the best-fit line determined by the linear regression model.The residual standard error is 4.939 and its lower than the previous model which is 5.376 better. In addition, the R-squared is 0.791 which is higher than the previous (0.791) and also better. As of now, ranking between chest and neck, chest would be the clear winner on top.
 
 
 
