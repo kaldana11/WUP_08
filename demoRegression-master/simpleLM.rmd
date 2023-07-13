@@ -66,5 +66,17 @@ abline(MYWEIGHT)
 summary.lm(MYWEIGHT)
 ```
 
+This model is in representation of the bear's weight. The residual standard error is 5.432 and the adjusted R-squared is 0.7472. In this case it is higher than the last model which is worse, and the adjusted R-square is higher than the previous model, which is better. So whereas, the residual standard error is worse, the adjusted R-square is better. At this point the bear's chest has the highest adjusted R-square which is the best. As far as the ranking goes, out of all the graphs we examined, WEIGHT would be considered 3rd place while HEADWTH takes the bottom of the list.
+
+
+
+
+
+
+
+
+
+
+
 
 
