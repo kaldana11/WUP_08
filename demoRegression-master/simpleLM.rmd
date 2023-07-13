@@ -49,7 +49,12 @@ The plot function creates a scatter plot where the "CHEST" values are plotted on
 
 
 
-
+```{r}
+MYHEADWTH <- lm(LENGTH~HEADWTH,data=bears)
+plot(LENGTH~HEADWTH,data=bears)
+abline(MYHEADWTH)
+summary.lm(MYHEADWTH)
+```
 
 
 
